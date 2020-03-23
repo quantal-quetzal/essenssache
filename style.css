@@ -1,4 +1,5 @@
-body {
+body,
+html {
   padding: 0;
   margin: 0;
   height: 100%;
@@ -6,22 +7,22 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
+  font-size: 140%;
+
   --app-pull-handle-height: 3.5rem;
 }
 
 .background_image {
   width: 100%;
-  min-height: calc(var(--app-viewport-height) * 100);
+  min-height: 100vh;
   object-fit: cover;
   position: fixed;
-  transition: min-height 3s;
+  transition: min-height 1s;
 }
 
 .spacer {
   position: relative;
-  min-height: calc(
-    calc(var(--app-viewport-height) * 100) - var(--app-pull-handle-height)
-  );
+  min-height: calc(100% - var(--app-pull-handle-height));
 }
 
 .pullHandle {
@@ -44,6 +45,8 @@ body {
 }
 
 .section {
+  font-family: "Asap", sans-serif;
+  font-size: 1rem;
   padding: 1rem;
   margin-left: auto;
   margin-right: auto;
@@ -51,7 +54,9 @@ body {
 }
 
 .section .title {
-  font-size: larger;
+  font-family: "Playfair Display", serif;
+  text-transform: lowercase;
+  font-size: 1.5rem;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
 }
