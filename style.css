@@ -2,12 +2,11 @@ body,
 html {
   padding: 0;
   margin: 0;
+
   height: 100%;
 
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-
-  font-size: 140%;
+  font-size: 110%;
+  font-family: "Asap", sans-serif;
 
   --app-pull-handle-height: 3.5rem;
 }
@@ -34,7 +33,7 @@ html {
 }
 
 .pullHandle img {
-  height: 2.5rem;
+  height: 2rem;
 }
 
 .content {
@@ -45,7 +44,6 @@ html {
 }
 
 .section {
-  font-family: "Asap", sans-serif;
   font-size: 1rem;
   padding: 1rem;
   margin-left: auto;
