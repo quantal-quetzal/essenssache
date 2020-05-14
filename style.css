@@ -5,10 +5,30 @@ html {
 
   height: 100%;
 
-  font-size: 110%;
-  font-family: "Asap", sans-serif;
+  font-size: 100%;
+  font-family: "Muli", sans-serif;
+  font-weight: 200;
+
+  color: var(--app-text);
 
   --app-pull-handle-height: 3.5rem;
+  --app-primary: #white;
+  --app-background: #22252a;
+  --app-border-color: #84dcc6;
+  --app-text: whitesmoke;
+}
+
+a,
+a:hover {
+  color: var(--app-primary);
+  /* text-decoration: none; */
+  text-decoration-color: var(--app-border-color);
+  text-decoration-thickness: 5px;
+}
+
+strong {
+  font-weight: 800;
+  color: var(--app-primary);
 }
 
 .background_image {
@@ -39,22 +59,54 @@ html {
 .content {
   position: relative;
   top: var(--app-pull-handle-height);
-  background-color: whitesmoke;
+  background-color: var(--app-background);
   z-index: 10;
 }
 
 .section {
-  font-size: 1rem;
+  font-size: 1.4rem;
   padding: 1rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 48rem;
 }
 
 .section .title {
-  font-family: "Playfair Display", serif;
-  text-transform: lowercase;
-  font-size: 1.5rem;
+  color: var(--app-primary);
+  font-weight: 800;
+  font-size: 1.9rem;
   padding-top: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.2rem;
+}
+
+.spass .section_content {
+  border-left: 3px solid var(--app-border-color);
+  padding: 1rem;
+  padding-top: 0.4rem;
+  font-style: italic;
+}
+
+.kontakt .section_content {
+  border-left: 3px solid var(--app-border-color);
+  padding: 1rem;
+  padding-top: 0.4rem;
+  font-style: italic;
+}
+
+.uli {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48rem;
+}
+
+.uli img {
+  max-width: 100%;
+}
+
+footer {
+  border-top: 3px solid var(--app-border-color);
+  position: relative;
+  height: 248px;
+  background-color: #343434;
+  background-image: url("/images/punkte.png");
 }
