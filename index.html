@@ -6,21 +6,22 @@
     <title>Essenssache</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="script.js"></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Muli:wght@200;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Limelight&family=Muli:wght@200;800&family=Yesteryear&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body onscroll="hideArrow()">
     <img
       src="images/background.jpg"
       alt="background"
       class="background_image"
     />
     <div class="spacer"></div>
-    <div class="pullHandle" onclick="pullHandle()">
-      <img src="images/arrow-up.svg" alt="arrow" />
+    <div id="pullHandle" onclick="pullHandle()">
+      <img id="arrow" src="images/arrow-up-white.svg" alt="arrow" /><br />
+      <span class="essens-sache">essens-sache</span><br />
+      <span class="leben">Das Leben ist zu kurz, um schlecht zu essen...</span>
     </div>
     <div class="content">
       <div class="section spass">
@@ -35,7 +36,7 @@
         </p>
       </div>
       <div class="uli">
-        <img src="images/uli sw7.jpg" alt="uli" />
+        <img src="images/uli_sw7_fit.jpg" alt="uli" />
       </div>
       <div class="section kontakt">
         <p class="title">Kontakt</p>
@@ -49,5 +50,6 @@
       </div>
       <footer></footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

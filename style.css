@@ -11,7 +11,7 @@ html {
 
   color: var(--app-text);
 
-  --app-pull-handle-height: 3.5rem;
+  --app-pull-handle-height: 15rem;
   --app-primary: #white;
   --app-background: #22252a;
   --app-border-color: #84dcc6;
@@ -21,9 +21,10 @@ html {
 a,
 a:hover {
   color: var(--app-primary);
-  /* text-decoration: none; */
-  text-decoration-color: var(--app-border-color);
-  text-decoration-thickness: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  /* text-decoration-color: var(--app-border-color);
+  text-decoration-thickness: 5px; */
 }
 
 strong {
@@ -44,23 +45,24 @@ strong {
   min-height: calc(100% - var(--app-pull-handle-height));
 }
 
-.pullHandle {
+#pullHandle {
   cursor: pointer;
-  position: fixed;
+  position: relative;
   width: 100%;
-  z-index: 3;
+  /* z-index: 3; */
+  padding-top: 1.5rem;
   text-align: center;
+  border-top: 3px solid var(--app-border-color);
+  background-color: var(--app-background);
 }
 
-.pullHandle img {
+#pullHandle img {
   height: 2rem;
 }
 
 .content {
   position: relative;
-  top: var(--app-pull-handle-height);
   background-color: var(--app-background);
-  z-index: 10;
 }
 
 .section {
@@ -83,14 +85,12 @@ strong {
   border-left: 3px solid var(--app-border-color);
   padding: 1rem;
   padding-top: 0.4rem;
-  font-style: italic;
 }
 
 .kontakt .section_content {
   border-left: 3px solid var(--app-border-color);
   padding: 1rem;
   padding-top: 0.4rem;
-  font-style: italic;
 }
 
 .uli {
@@ -108,5 +108,30 @@ footer {
   position: relative;
   height: 248px;
   background-color: #343434;
-  background-image: url("/images/punkte.png");
+  background-size: contain;
+  background-image: url("/images/punkte.svg");
+}
+
+.essens-sache {
+  font-family: "Limelight", cursive;
+  font-size: 4rem;
+}
+
+.leben {
+  font-family: "Yesteryear", cursive;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 48em) {
+  body {
+    --app-pull-handle-height: 12rem;
+  }
+
+  .essens-sache {
+    font-size: 3rem;
+  }
+
+  .leben {
+    font-size: 1.5rem;
+  }
 }

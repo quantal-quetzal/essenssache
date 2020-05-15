@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="21.253443mm"
+   height="17.575556mm"
+   viewBox="0 0 21.253443 17.575556"
+   version="1.1"
+   id="svg1269"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="punkte_drawing.svg">
+  <defs
+     id="defs1263">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1259">
+      <rect
+         style="opacity:1;fill:#343434;fill-opacity:1;stroke:none;stroke-width:0.07298137;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1261"
+         width="60.246014"
+         height="49.820477"
+         x="422.08878"
+         y="-360.452"
+         inkscape:export-xdpi="358.09604"
+         inkscape:export-ydpi="358.09604"
+         mask="none"
+         transform="scale(1,-1)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="52.296891"
+     inkscape:cy="-9.7006193"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1242"
+     inkscape:window-height="1366"
+     inkscape:window-x="24"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata1266">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-57.220006,-105.64973)">
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-91.683542,232.80918)"
+       id="g1257"
+       clip-path="url(#clipPath1259)">
+      <rect
+         style="opacity:1;fill:#343434;fill-opacity:1;stroke:none;stroke-width:0.07298137;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1004"
+         width="60.246014"
+         height="49.820477"
+         x="422.08881"
+         y="-360.452"
+         inkscape:export-xdpi="358.09604"
+         inkscape:export-ydpi="358.09604"
+         transform="scale(1,-1)"
+         mask="none" />
+      <g
+         id="g1217">
+        <g
+           mask="none"
+           id="g1061">
+          <circle
+             transform="scale(1,-1)"
+             r="10.235495"
+             cy="-340.79623"
+             cx="432.35059"
+             id="circle1057"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.30673781;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <circle
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.30673781;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="circle1059"
+             cx="492.65811"
+             cy="-340.79623"
+             r="10.235495"
+             transform="scale(1,-1)" />
+        </g>
+        <g
+           mask="none"
+           transform="translate(30.153748,-29.986542)"
+           id="g1067">
+          <circle
+             transform="scale(1,-1)"
+             r="10.235495"
+             cy="-340.79623"
+             cx="432.35059"
+             id="circle1063"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.30673781;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <circle
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.30673781;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="circle1065"
+             cx="492.65811"
+             cy="-340.79623"
+             r="10.235495"
+             transform="scale(1,-1)" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
