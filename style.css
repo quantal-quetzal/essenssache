@@ -11,7 +11,7 @@ html {
 
   color: var(--app-text);
 
-  /* --app-pull-handle-height: 15rem; */
+  --app-pull-handle-height: 15rem;
 
   --app-primary: #white;
   --app-background: #22252a;
@@ -125,7 +125,7 @@ footer {
 
 @media (max-width: 48em) {
   body {
-    --app-pull-handle-height: 10rem;
+    --app-pull-handle-height: 12rem;
   }
 
   .essens-sache {
