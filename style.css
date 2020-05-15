@@ -52,7 +52,7 @@ strong {
   /* z-index: 3; */
   padding-top: 1.5rem;
   text-align: center;
-  border-top: 3px solid var(--app-border-color);
+  /* border-top: 3px solid var(--app-border-color); */
   background-color: var(--app-background);
 }
 
