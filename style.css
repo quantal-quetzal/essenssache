@@ -22,10 +22,10 @@ html {
 a,
 a:hover {
   color: var(--app-primary);
-  text-decoration: none;
+  /* text-decoration: none; */
   font-weight: bold;
-  /* text-decoration-color: var(--app-border-color);
-  text-decoration-thickness: 5px; */
+  text-decoration-color: var(--app-border-color);
+  text-decoration-thickness: 1px;
 }
 
 strong {
@@ -82,25 +82,21 @@ strong {
   padding-bottom: 0.2rem;
 }
 
-.spass .section_content {
+.section_content {
   border-left: 3px solid var(--app-border-color);
   padding: 1rem;
   padding-top: 0.4rem;
 }
 
-.kontakt .section_content {
-  border-left: 3px solid var(--app-border-color);
-  padding: 1rem;
-  padding-top: 0.4rem;
-}
-
-.uli {
+.uli,
+.glaeser {
   margin-left: auto;
   margin-right: auto;
   max-width: 48rem;
 }
 
-.uli img {
+.uli img,
+.glaeser img {
   max-width: 100%;
 }
 
